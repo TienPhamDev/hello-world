@@ -1,9 +1,123 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+/* default page */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body{
     font-family: 'Lato',sans-serif;
-    letter-spacing: 0.9;
 }
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.center{
+    max-width: 80%;
+    margin: auto;
+}
+/* header section , logo and nav */
+header{
+    background-color: #1f2937;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+    padding: 12px;
+}
+.logo{
+    color:#e5e7eb;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 48px;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+nav > ul > li > a{
+    color: #e5e7eb;
+}
+/* hero section */
+.hero-page{
+    display: flex;
+    padding: 84px 0;
+    gap: 54px;
+    height: 500px;
+}
+.img-about-page {
+    border-radius: 8px;
+    flex: 30%;
+}
+.hero{
+    align-self: center;
+}
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #f9faf8;
+    margin-bottom: 12px;
+}
+.hero > p{
+    font-size: 18px;
+    color: #e5e7eb;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    letter-spacing:0.7px;
+}
+.signup-btn{
+    font-size: 14px;
+    font-weight: 500;
+    padding:8px 24px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 6px;  
+}
+/* section some information */
+.css-information{
+    padding:52px 60px 84px 60px ;
+}
+h2{
+    margin-bottom: 48px;
+    text-align: center;
+}
+.img-info{
+    height: 170px;
+    width: 170px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.css-information > ul{
+    display: flex;
+    gap: 36px;
+    text-align: center;
+}
+/* section quote */
+.css-quote{
+    background-color: #e5e7eb;
+}
+.css-quote-div{
+    padding: 84px;
+}
+.css-quote-div > p{
+    color: #515c6a;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 1.2;
+}
+.css-quote-div > span{
+    float: right;
+    font-size: #1f2937;
+    font-size: 24px;
+    font-weight: 900;
+}
+/* section call to action */
