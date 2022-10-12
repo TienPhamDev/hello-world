@@ -121,3 +121,41 @@ h2{
     font-weight: 900;
 }
 /* section call to action */
+.call-action{
+    padding: 84px 0;
+}
+.call-action-div{
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 54px 54px;
+    display: flex;
+    justify-content: space-between;
+}
+.call-action-div h3{
+    color: #e5e7eb;
+}
+.call-action-div p{
+    color: #e5e7eb;
+    line-height: 1.5;
+}
+.call-action-btn{
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 8px 32px;
+    align-self: center;
+    border-radius: 6px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+
+}
+.call-action-btn:hover{
+    cursor: pointer;
+}
+/* footer */
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 24px 0;
+    color: #e5e7eb;
+}
